@@ -1,0 +1,68 @@
+ol li big {
+    color: rgb(41, 15, 1);
+    font-size: 200%;
+    font-family:cursive;
+    font-weight:1000;
+}
+ol ul ul li{
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45%;
+}
+ol ul {
+    color:rgb(36, 1, 39);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 175%;
+    font-weight: 500;
+}
+
+footer p{
+    text-align: end;
+    font-size: 20px;
+    color: rgb(15, 11, 4);
+    font-weight: bolder;
+}
+
+#clickable_link{
+    color: rgb(0, 6, 128);
+    font-style: italic;
+}
+
+
+#Return a{
+    background-color: black;
+    color: red;
+    padding: 10px 20px;
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+    border-radius: 20px;
+}
+
+#Return {
+    text-align: right;
+}
+
+body {
+    background-image: url("/Pictures/projects_back.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+
+#my_pic{
+    border-radius: 20px;
+}
+#Heading {
+    flex-grow: 1;
+    /* padding: 10%; */
+    text-align: center;
+    font-size: xxx-large;
+    font-weight: bold;
+    text-decoration: dotted underline;
+    color: rgb(67, 44, 44);
+}
