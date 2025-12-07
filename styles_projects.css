@@ -17,10 +17,15 @@ ol ul {
 }
 
 footer p{
-    text-align: end;
-    font-size: 20px;
+    /* text-align: end; */
+    font-size: 25px;
+    /* padding: 0% 0%; */
+    margin: 0% 0%;
     color: rgb(15, 11, 4);
-    font-weight: bolder;
+    /* font-weight: bolder; */
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
 }
 
 #clickable_link{
@@ -65,4 +70,16 @@ header {
     font-weight: bold;
     text-decoration: dotted underline;
     color: rgb(67, 44, 44);
+    font-family: "Oswald",sans-serif;
+}
+
+img {
+    border-radius: 20px;
+}
+
+
+footer img {
+    width:25px;
+    padding-left: 10px;
+    margin-bottom: 0%;
 }
