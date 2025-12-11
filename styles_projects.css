@@ -16,16 +16,13 @@ ol ul {
     font-weight: 500;
 }
 
-footer p{
-    /* text-align: end; */
+span{
+    text-align: end;
     font-size: 25px;
-    /* padding: 0% 0%; */
+    padding: 0% 0%;
     margin: 0% 0%;
     color: rgb(15, 11, 4);
     /* font-weight: bolder; */
-    display: flex;
-    justify-content: flex-end;
-    align-items:center;
 }
 
 #clickable_link{
@@ -34,16 +31,12 @@ footer p{
 }
 
 
-#Return a{
+.Return{
     background-color: black;
     color: red;
     padding: 10px 20px;
     /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
     border-radius: 20px;
-}
-
-#Return {
-    text-align: right;
 }
 
 body {
@@ -64,7 +57,6 @@ header {
 }
 #Heading {
     flex-grow: 1;
-    /* padding: 10%; */
     text-align: center;
     font-size: xxx-large;
     font-weight: bold;
@@ -78,9 +70,23 @@ img {
 }
 
 
-footer img {
-    width:25px;
-    padding-left: 10px;
+#footer_img {
+    width:30px;
     display: flex;
     
+}
+a:nth-last-of-type(1), a:nth-last-of-type(2), a:nth-last-of-type(3) {
+    display:block;
+    margin-right: 7px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+span {
+    display: flex;
+    align-items: center;
 }

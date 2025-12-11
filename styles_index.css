@@ -39,12 +39,13 @@ projects body {
 }
 footer>p{
     text-align: end;
-    font-size: 20px;
+    font-size: 25px;
     color: rgb(43, 32, 18);
     /* font-weight: bolder; */
     display: flex;
     justify-content: end;
     align-items: center;
+    margin: 0%;
 }
 
 #my_pic{
@@ -84,4 +85,9 @@ header{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-decoration: dashed underline;
     font-size: xx-large;
+}
+
+
+footer a {
+    margin-left: 5px;
 }
