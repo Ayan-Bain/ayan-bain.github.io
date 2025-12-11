@@ -58,6 +58,7 @@ div ul ol li{
 }
 
 body {
+    height: 100%;
     background-image: url("/Pictures/IMG_20251205_165554255_HDR.jpg");
     background-repeat: no-repeat;
     background-position: center;
