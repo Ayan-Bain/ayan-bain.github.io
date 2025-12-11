@@ -58,12 +58,9 @@ div ul ol li{
 }
 
 body {
-    height: 100%;
-    background-image: url("/Pictures/IMG_20251205_165554255_HDR.jpg");
-    background-repeat: no-repeat;
+    background: linear-gradient(rgb(139, 153, 247), rgb(47, 227, 169), rgb(139, 153, 247));
+    background-repeat: repeat;
     background-position: center;
-    background-size: cover;
-    background-image: linear-gradient(rgba(255, 255, 255,0%),rgba(255, 255, 255,50%)),url("/Pictures/IMG_20251205_165554255_HDR.jpg");
 }
 
 #experience {
@@ -91,4 +88,8 @@ header{
 
 footer a {
     margin-left: 5px;
+}
+
+html {
+    height: 100%;
 }
