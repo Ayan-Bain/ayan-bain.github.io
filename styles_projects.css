@@ -81,5 +81,6 @@ img {
 footer img {
     width:25px;
     padding-left: 10px;
-    margin-bottom: 0%;
+    display: flex;
+    
 }

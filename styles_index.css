@@ -41,7 +41,10 @@ footer>p{
     text-align: end;
     font-size: 20px;
     color: rgb(43, 32, 18);
-    font-weight: bolder;
+    /* font-weight: bolder; */
+    display: flex;
+    justify-content: end;
+    align-items: center;
 }
 
 #my_pic{
@@ -68,6 +71,8 @@ body {
 
 footer img{
     background-color: transparent;
+    display: flex;
+    align-items: flex-end;
 }
 
 
