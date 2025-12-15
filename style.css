@@ -1,0 +1,135 @@
+#text {
+    display: inline-block;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0%;
+    background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/3x8qnxvq-1-hero-background-1600x632?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=3200&hei=1400&qlt=100&fit=constrain);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.container {
+    /* margin-bottom: 35%; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10vh;
+}
+
+.tasks {
+    margin: 5%;
+    padding: 3%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    padding: 2% 6%;
+    height: 100%;
+    width: 90%;
+    border-radius: 20px;
+    border: solid 1px;
+    margin-bottom: 5px;
+    background-color: white;
+}
+
+.task-add {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    background-color: white;
+    padding: 1.5% 6%;
+    border-radius: 20px;
+    border: solid 1px;
+}
+
+button {
+    border: 2px solid;
+    background-color: white;
+}
+
+.buttons {
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.buttons button {
+    /* border: solid green 2px; */
+    border-radius: 10px;
+    height: 2.5rem;
+    width: 2.7rem;
+    margin-left: 5%;
+    transition: .5s;
+}
+
+button i {
+    font-size: 5rem;
+
+}
+
+.task-add #text-area {
+    height: 40px;
+    width: 80%;
+    border-radius: 15px;
+    margin-right: 5%;
+    font-size: 1.2rem;
+    padding-left: 2%;
+}
+
+#add {
+    /* background-color: yellow; */
+    width: 2.5rem;
+    height: 2.5rem;
+    color: green;
+    /* color: white; */
+    border: green solid 2px;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+#add:hover {
+    color: white;
+    background-color: green;
+}
+
+.done:hover {
+    color: white;
+    background-color: yellowgreen;
+}
+
+.delete:hover {
+    color: white;
+    background-color: rgb(255, 0, 0);
+}
+
+.task-demo {
+    display: none;
+}
+
+.delete {
+    color: red;
+}
+
+.done {
+    color: yellowgreen;
+}

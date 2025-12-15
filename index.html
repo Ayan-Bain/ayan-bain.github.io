@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Tasker</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="task-add">
+        <input name="task-input" id="text-area" placeholder="Task" />
+        <button id="add" title="Add task">
+          <i class="fa fa-plus fa-2x"></i>
+        </button>
+      </div>
+      <div class="tasks">
+        <div class="task-demo">
+          <div id="text">Sample task</div>
+          <div class="buttons">
+            <button class="done" title="Task done!">
+              <i class="fa fa-check-square-o fa-2x" id="done"></i>
+            </button>
+            <button class="delete" title="Delete task">
+              <i class="fa fa-trash-o fa-2x" id="delete"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="/app.js"></script>
+  </body>
+</html>
