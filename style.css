@@ -133,13 +133,3 @@ button i {
 .done {
     color: yellowgreen;
 }
-
-h1 {
-    font-family: 'Quicksand', sans-serif;
-    font-size: 4rem;
-    color: red;
-    border: yellow solid;
-    border-radius: 20px;
-    padding: 3% 5%;
-    background-color: white;
-}
