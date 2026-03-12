@@ -2,13 +2,11 @@
 
 A futuristic, weightless personal portfolio website built with **React**, **Vite**, **Tailwind CSS**, and **Framer Motion**. This project showcases the intersection of Electronics and Communication Engineering (ECE) with Backend & App Development.
 
-![Portfolio Preview Showcase](https://img.shields.io/badge/Theme-Antigravity-blueviolet)
 ![Tech Stack](https://img.shields.io/badge/Stack-React%20%7C%20Vite%20%7C%20Tailwind-cyan)
 ![Animations](https://img.shields.io/badge/Animations-Framer%20Motion-ff69b4)
 
 ## ✨ Features
 
-- **Antigravity Aesthetics**: A deep-space, galaxy-themed design with floating particles and glassmorphic elements.
 - **Event Horizon Cursor**: A custom interactive cursor that reacts to hover states and movement across the "digital cosmos."
 - **Dynamic Physics**: Elements leverage parallax and levitation effects to simulate a weightless environment.
 - **Responsive Architecture**: Fully mobile-responsive layout with a sleek "Glassmorphic Dock" for navigation.
