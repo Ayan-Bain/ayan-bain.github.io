@@ -75,7 +75,6 @@ portfolio/
 ### Mission Control (PORs)
 - **Deputy Coordinator @ Coding Club IITG**: Architecting student initiatives and algorithmic thinking.
 - **Associate @ Robotics Club IITG**: Operating at the intersection of hardware and software.
-- **Branch Representative @ ECE**: Serving as the central communication band for students.
 
 ### Deployment Log (Projects)
 - **HAB App (Mess Rebate)**: Engineered a Flutter/Node.js module for hostel network allowances.

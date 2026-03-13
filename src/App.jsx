@@ -174,14 +174,6 @@ const App = () => {
                       <p className="text-xs text-slate-400 font-mono mt-1"><span className="text-electric-indigo">The Physical Payload:</span> Operating at the intersection of hardware and software. Collaborating to build autonomous systems and bridging the hardware components with intelligent control systems.</p>
                     </div>
                   </div>
-
-                  <div className="flex items-start gap-4 p-4 rounded-xl bg-obsidian/40 border border-white/5 backdrop-blur-md">
-                    <Shield className="w-6 h-6 text-cyan-neon shrink-0 mt-1" />
-                    <div>
-                      <h4 className="font-bold text-white text-sm font-mono">Branch Representative | ECE</h4>
-                      <p className="text-xs text-slate-400 font-mono mt-1"><span className="text-cyan-neon">Mission Control:</span> Serving as the central communication band for the ECE students. Guiding academic feedback, amplifying student voices, and ensuring smooth synchronization across the entire branch.</p>
-                    </div>
-                  </div>
                 </div>
               </div>
               
