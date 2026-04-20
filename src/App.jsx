@@ -20,6 +20,13 @@ const App = () => {
 
   const projects = [
     {
+      title: "Carbon Credit Trading System",
+      description: "Architected a decentralized carbon credit tracking ecosystem using Ethereum smart contracts. Features a multi-layered trust engine and real-time verification dashboard.",
+      tech: ["Next.js 14", "NestJS", "Solidity", "Blockchain"],
+      link: "https://github.com/Ayan-Bain/Carbon_credit-Blockchain",
+      icon: <Shield className="w-6 h-6 text-electric-indigo" />
+    },
+    {
       title: "HAB App (Mess Rebate)",
       description: "Engineered a robust mess rebate module for the official IITG HAB Application. Managing dynamic allowances across hostel networks.",
       tech: ["Flutter", "Node.js", "MongoDB", "REST API"],
@@ -117,7 +124,7 @@ const App = () => {
             </h1>
             
             <p className="text-xl md:text-2xl text-slate-400 max-w-2xl mx-auto leading-relaxed font-mono">
-              Bridging the physical and the digital: Engineering <span className="text-white font-medium">intelligent silicon</span> and architecting <span className="text-white font-medium">weightless backends</span>.
+              Bridging the physical and the digital: Integrating <span className="text-white font-medium">ideas</span> with <span className="text-white font-medium">code</span>.
             </p>
 
             <motion.div 
